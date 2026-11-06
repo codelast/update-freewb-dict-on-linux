@@ -1,0 +1,29 @@
+# ---- 构建产物（由 build_mb2txt.sh 生成）----
+# 注意：mb2txt.c 是 fcitx 上游代码（GPL-2.0），不要提交进本仓库（本仓库为 MIT）
+mb2txt
+mb2txt.c
+im/
+
+# ---- 运行中间产物 ----
+dump.txt
+before.txt
+after.txt
+fcitx.log
+*.csv
+*.mb
+*.bak
+*.bak-*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
